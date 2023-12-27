@@ -1,0 +1,64 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f3;
+  }
+  
+  .card {
+    background: white;
+    border-radius: 25px;
+    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  input, textarea, button {
+    border: none;
+    outline: none;
+    margin: 10px 0;
+    border-radius: 15px;
+    padding: 10px;
+    width: 90%;
+    box-shadow: inset 8px 8px 8px #bebebe, inset -8px -8px 8px #ffffff;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  button {
+    background-color: #e0e0e0;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #d1d1d3;
+  }
+  
+  .color-display {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 20px auto;
+    box-shadow: 5px 5px 15px #bebebe, -5px -5px 15px #ffffff;
+  }
+
+
+button {
+    background-color: #e0e0e0;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 4px 4px 8px #bebebe, -4px -4px 8px #ffffff; /* 튀어나온 효과 */
+  }
+  
+  button:active {
+    box-shadow: inset 4px 4px 8px #bebebe, inset -4px -4px 8px #ffffff; /* 클릭 시 들어간 효과 */
+  }
+  

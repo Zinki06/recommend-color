@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<title>감정 기반 팬톤 컬러 추천 시스템</title>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/toxicity"></script>
+
+</head>
+<body>
+<div class="card">
+  <h2>오늘의 감정 색상</h2>
+  <div class="color-display" id="colorDisplay"></div>
+  <input type="text" id="studentId" placeholder="학번">
+  <input type="text" id="name" placeholder="이름">
+  <textarea id="story" placeholder="오늘 하루 있었던 일"></textarea>
+  <button onclick="analyzeAndDisplayColor()">색상 보기</button>
+  <p id="letter"></p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
